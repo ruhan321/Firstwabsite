@@ -1,3 +1,209 @@
-.ruhan{text-align: center;
-background-color: grey;
+*{
+				padding: 0;
+				margin: 0;
+}
+#navegation{
+				background-color: dodgerblue;
+				border-bottom:3px solid #630025;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+}
+#navegation > ul{
+				display: flex;
+				padding-right: 50px;
+}
+
+#navegation > ul > li{
+				list-style: none;
+				padding: 15px 0px;
+				margin: 0px 15px ;
+			margin: -1px;
+}
+#navegation > ul > li > a{
+				text-decoration: none;
+				color: white;
+				border-right: 1px solid white;
+				padding: 15px 20px;
+				text-size: 15px;
+				transition: 0.5s;
+}
+#navegation > ul > li:first-child > a{
+				border-left: 1px solid white;
+}
+#navegation > ul > li:hover > a{
+				background-color: #480063;
+}
+.logo > h2{
+				color: white;
+				margin-left: 15px;
+				
+}
+.logo > h2 > span{
+				color: red;
+				font-size: 50px;
+}
+
+
+
+
+/* dropdown menu start here */
+
+
+
+
+.dropdownmenu{
+			 list-style: none;
+			 margin-top: 17px;
+			 text-align: center;
+			 background-color: dodgerblue;
+			 width: 170px;
+			 position: absolute;
+			 transition: 0.5s;
+			 opacity: 0;
+			 visibility: hidden;
+			 transform: scaleY(0);
+			 transform-origin: top;
+				box-shadow: 5px 5px 5px #000000;
+}
+.dropdownmenu > li{
+				border-bottom: 1px solid white;
+				padding: 10px 0px;
+}
+.dropdownmenu > li > a{
+				text-decoration: none;
+				color: white;
+				
+}
+.dropdownmenu > li:first-child{
+				border-top: 1px solid white;
+}
+.dropdownmenu > li:hover{
+				background-color: #480063;
+			
+}
+#navegation > ul > li:hover > ul{
+				opacity: 1;
+				visibility: visible;
+				transform: scaleY(1);
+}
+/* mainheader code start  */
+#main-header{
+				background-color: #00136c;
+				background-image: url("");
+				text-align: center;
+				padding-top: 200px;
+				height: 86vh;
+}
+.header-contaner > h1{
+				color: white;
+				margin-bottom: 10px;
+}
+.header-contaner > h2{
+				background-color: dodgerblue;
+				width: 500px;
+				margin: auto;
+				font-size: 80px;
+				border-radius: 15px;
+}
+
+.socialicon > a{
+				color: white;
+				text-decoration: none;
+}
+.socialicon > a > i{
+				height: 50px;
+				width: 50px;
+				line-height: 1.6;
+				font-size: 30px;
+				background-color: green;
+				padding: 5px;
+				border: 2px solid white;
+				border-radius: 50%;
+				margin: 20px 5px;
+				transition: 0.5s;
+}
+.socialicon > a > i:hover{
+				background-color: #480063;
+				border: 2px solid green;
+				transform: rotate(360deg);
+}
+.header-contaner > button{
+				margin-top: 20px;
+				padding: 15px 20px;
+				font-size: 40px;
+				background-color: #5550bf;
+				color: white;
+				border-radius: 30px 10px 30px 10px;
+				border: 3px solid green;
+				cursor: pointer;
+				transition: 0.5s;
+				
+}
+.header-contaner > button:hover{
+				background-color: #480063;
+}
+
+
+/* main saction csd start here */
+
+.frsection{
+				background-color: #ffd5f4;
+}
+
+
+#fastcontainer{
+				display: flex;
+				width: 900px;
+				margin: auto;
+				justify-content: space-between;
+				padding-bottom: 100px;
+}
+.programing{
+				width: 270px;
+				text-align: center;
+				margin: 20px;
+				padding: 20px;
+				transition: 0.5s;
+}
+.programing > i{
+				font-size: 30px;
+}
+.programing:hover{
+				box-shadow: 5px 5px 5px 2px black;
+}
+.programing > h2{
+				margin: 20px;
+}
+.develop{
+				width: 270px;
+				text-align: center;
+				margin: 20px;
+				padding: 20px;
+				transition: 0.5s;
+}
+.develop > i{
+				font-size: 30px;
+}
+.develop:hover{
+				box-shadow: 5px 5px 5px 2px black;
+}
+.develop > h2{
+				margin: 20px;
+}
+.felan{
+				width: 270px;
+				text-align: center;
+				margin: 20px;
+				padding: 20px;
+				transition: 0.5s;
+}
+.felan > i{
+				font-size: 30px;
+}
+.felan:hover{
+				box-shadow: 5px 5px 5px 2px black;
+}
+.felan > h2{
+				margin: 20px;
 }
